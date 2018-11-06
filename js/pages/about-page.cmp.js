@@ -1,15 +1,15 @@
-
 export default {
     template: `
-    <section class="add-book-container">
-    
-<h1>UNDER CONSTRUCTION</h1>
-    </section>
-
+ 
+    <div class="about-page">
+    <div>UNDER CONSTRUCTION</div> 
+<div> 
+  <span>Come Back Soon?</span>
+</div>
+</div>
     `,
     methods: {
 
     },
-    components: {
-    }
+    components: {}
 };

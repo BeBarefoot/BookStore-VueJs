@@ -65,6 +65,7 @@
 }
 
 .user-msg {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 80px;
     position: fixed;
     margin: 0 50vw;

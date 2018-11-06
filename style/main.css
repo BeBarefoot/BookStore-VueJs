@@ -3,6 +3,7 @@
 @import 'book-detail.css';
 @import 'review-add.css';
 @import 'add-book.css';
+@import 'about.css';
 html,
 body {
     margin: 0 auto;
@@ -120,3 +121,5 @@ li {
 .fade-leave-active {
     opacity: 0
 }
+
+.about-title-dbl {}

@@ -16,10 +16,10 @@ export default {
               <p class="author">{{author}}</p>
               <p class="on-sale">{{isOnSale}}</p>
             <h4 class="book-details-price">Price: {{price}}</h4>
-              <p class="categories">{{categories}}</p>
 
             <p class="book-details-publish">{{published}}</p>
             <p class="book-details-read">{{reading}}</p>
+              <p class="categories">Topics: {{categories}}</p>
              <long-text :txt="book.description"></long-text>
           <review-add :currBook="book"></review-add>
              </div>
