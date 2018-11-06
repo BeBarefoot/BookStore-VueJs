@@ -1,0 +1,63 @@
+.search-engine input {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-book-container {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.all-results {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    ;
+}
+
+.all-results img {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    margin: 30px;
+    transition: all 0.3s;
+}
+
+.all-results img:hover {
+    border: 1px solid red;
+    transform: scale(1.05);
+    transition: all 0.3s;
+    color: black
+}
+
+.all-results button {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.all-results button:hover {
+    transition: all 0.6s;
+    background: whitesmoke;
+    color: green
+}
+
+.search-book-title {
+    color: antiquewhite;
+    width: 200px;
+    height: 70px;
+    top: 0;
+    margin: 10px 30px 20px 10px;
+}
+
+.search-book-author {
+    color: whitesmoke;
+    font-size: 80%;
+    width: 200px;
+    height: 50px;
+    top: 0;
+    margin: 5px 30px 10px 10px;
+}

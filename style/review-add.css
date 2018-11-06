@@ -1,0 +1,105 @@
+.review-container {
+    color: whitesmoke;
+    margin: 10px;
+}
+
+@media (max-width:800px) {
+    .review-container {
+        color: whitesmoke;
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+    .rating {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:500px) {
+    textarea {
+        max-width: 75%;
+    }
+}
+
+.review-container label {
+    color: Gold;
+    text-indent: -25em;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 1.2em;
+}
+
+.review-container label:before {
+    content: "★";
+    position: relative;
+    left: 10em;
+}
+
+.review-container input:checked~label {
+    color: Black;
+}
+
+.rating input {
+    display: none;
+}
+
+.review-container div.rating:hover label {
+    color: Gold;
+    cursor: pointer;
+}
+
+.review-container div.rating label:hover~label {
+    color: Black;
+}
+
+.add-review {
+    display: block;
+    margin: 10px auto;
+    color: antiquewhite;
+    width: fit-content;
+}
+
+.add-review:hover {
+    transform: scale(1.1)
+}
+
+.user-msg {
+    width: 80px;
+    position: fixed;
+    margin: 0 50vw;
+    top: -50vh;
+    background: rgb(128, 128, 128);
+    color: black;
+    padding: 0 30px;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+.user-msg button {
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.msg-sent {
+    display: block;
+    width: 200px;
+    margin: 0 50vw;
+    top: 30vh;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+.msg-failed {
+    background: gray;
+    border-radius: 10px;
+    display: block;
+    width: 200px;
+    margin: 0 50vw;
+    top: 30vh;
+    border: 2px solid red;
+    padding: 20px;
+}

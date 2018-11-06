@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bs4/css/bootstrap.css">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Z BOOKS</title>
+</head>
+
+<body>
+    <div id="app">
+        <nav-bar></nav-bar>
+        <user-msg>x</user-msg>
+        <transition name="fade" mode="out-in">
+            <router-view></router-view>
+        </transition>
+
+    </div>
+
+    <script src="lib/jquery-3.3.1.slim.js"></script>
+    <script src="lib/bs4/js/bootstrap.js"></script>
+    <script src="lib/vue-router.js"></script>
+    <script src="lib/vue.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
